@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Pacifico', cursive;
+    background-color:#B9B28A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.Birthday-card {
+    background-color:#EBE5C2;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 450px;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    color: #ff6f61;
+    margin-bottom: 10px;
+    animation: bounce 1.5s infinite;
+}
+
+.header h2 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+.details {
+    margin-top: 20px;
+}
+
+.message {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.info {
+    background: #F8F3D9;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.info p {
+    font-size: 1.1rem;
+    color: #333;
+    margin: 10px 0;
+}
+
+.footer {
+    font-size: 1.2rem;
+    color: #333;
+    margin-top: 20px;
+}
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+.footer button{
+    padding: 10px 10px;
+    background-color: beige;
+    border-radius: 10px;
+    font-size: 1rem;
+    color: #333;
+
+}
+button:hover{
+    transform: translateY(-10px);
+    box-shadow: 0px 2px 5px black;
+    background-color: rgb(59, 46, 46);
+    color:beige;
+}
